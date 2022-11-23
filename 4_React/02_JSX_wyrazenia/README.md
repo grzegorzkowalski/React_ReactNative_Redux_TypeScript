@@ -1,7 +1,4 @@
-# Szkolenie ECMAScript 6+ i React
-
 ### Na tym etapie ćwiczenia wykonuj w pliku App.js
-
 
 ## Zadanie 1
 

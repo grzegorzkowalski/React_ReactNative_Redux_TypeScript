@@ -1,7 +1,4 @@
-# Szkolenie ECMAScript 6+ i React
-
 ### Używamy tylko komponentów funkcyjnych.
-
 
 ## Zadanie 1
 
@@ -23,8 +20,6 @@ Przetestuj swój komponent w ten sposób:
 ```JS
 <BookInfo isbn="0747532699" />
 ```
-
-
 
 ## Zadanie 2
 

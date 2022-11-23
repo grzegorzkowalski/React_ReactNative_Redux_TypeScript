@@ -10,7 +10,6 @@ Pamiętaj, żeby wszędzie tam, gdzie jest to możliwe i istotne używać TypeSc
 4. Stwórz koszyk w headerze strony – powinien on przetrzymywać stan koszyka i obliczać łączna kwotę zakupów. Stwórz też osobną stronę dla koszyka z podsumowanem (listą) wszystkich produktów znajdujących się w nim.
 5. Feed produktowy znajduje się w pliku `products.json` – stwórz z niego endpoint przy pomocy narzędzia `json-server.`
 
-– aby stworzyć routing użyj biblioteki `react-router-dom`.
-– stan koszyka powinien być przetrzymywany w kontekście strony `context api`.
-– użyj hooka `useReducer` do maniplulacji stanem koszyka.
-– do stylowania możesz użyć biblioteki bootstrap.
+– Aby stworzyć routing użyj biblioteki `react-router-dom`.
+– Stan koszyka powinien być przetrzymywany w kontekście strony `context api`.
+– Do stylowania możesz użyć biblioteki Bootstrap albo MaterialUI.

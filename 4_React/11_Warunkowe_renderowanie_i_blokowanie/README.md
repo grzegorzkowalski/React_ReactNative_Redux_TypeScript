@@ -1,15 +1,10 @@
-# Szkolenie ECMAScript 6+ i React
-
 ### Używamy tylko komponentów funkcyjnych.
-
 
 ## Zadanie 1
 
 Stwórz komponent `MyButton`.
 
 Ma on zawierać jeden przycisk, który wyświetla na początku "NIE". Po jego kliknięciu napis ma się zmienić na "TAK", po następnym kliknięciu z powrotem na "NIE" itd. **Aby wyświetlić odpowiedni tekst, użyj operatora trójargumentowego bezpośrednio wewnątrz JSX.**
-
-
 
 ## Zadanie 2
 
@@ -20,8 +15,6 @@ Math.ceil(Math.random() * 5)
 ```
 
 W metodzie render zrób warunek, który sprawdzi wylosowaną liczbę. Jeżeli jest ona większa od 3, to wyrenderuj tę liczbę oraz napis: "Większa od 3". W przeciwnym wypadku wyrenderuj tę liczbę oraz napis: "Mniejsza od 3".
-
-
 
 ## Zadanie 3
 

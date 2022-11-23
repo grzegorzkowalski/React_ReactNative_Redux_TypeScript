@@ -1,5 +1,3 @@
-# Szkolenie ECMAScript 6+ i React
-
 ### Używamy tylko komponentów funkcyjnych.
 
 ## Zadanie 1

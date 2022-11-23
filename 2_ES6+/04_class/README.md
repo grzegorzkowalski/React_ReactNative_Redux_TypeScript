@@ -1,6 +1,4 @@
-## Zadanie 1 - rozwiązywane z wykładowcą
-
-
+## Zadanie 1
 
 Stwórz klasę abstrakcyjną `Vehicle`. Stwórz trzy obiekty:
 
@@ -10,11 +8,7 @@ Stwórz klasę abstrakcyjną `Vehicle`. Stwórz trzy obiekty:
 
 na podstawie odpowiednich klas dziedziczących po `Vehicle`. W odpowiednich klasach stwórz metody, które będą wypisywały w konsoli informacje wyróżniające te pojazdy. Zrób to w taki sposób, aby obiekt `boat` nie mógł jeździć ani latać, itp.
 
-
-
 ## Zadanie 2
-
-
 
 ### Część 1
 
@@ -27,21 +21,17 @@ Stwórz klasę ```Duck```. Będzie to klasa abstrakcyjna, z której będą dzied
 
 Stwórz obiekt ```donaldDuck```. Wywołaj dla niego wszystkie metody.
 
-
 ### Część 2
 
 Na bazie  klasy ```Duck``` stwórz kolejną o nazwie ```WildDuck```. Nadpisz odpowiednio konstruktor, tak aby podczas wywoływania metody ```print()``` typ kaczki zmienił się na "wild". Stwórz obiekt ```daffyDuck```. Wywołaj dla niego wszystkie metody.
-
 
 ### Część 3
 
 Na bazie klasy ```Duck``` stwórz kolejną o nazwie ```MallardDuck```. Nadpisz odpowiednio konstruktor, tak aby podczas wywoływania metody ```print()``` typ kaczki zmienił się na "mallard". Stwórz obiekt ```daisyDuck```. Wywołaj dla niego wszystkie metody.
 
-
 ### Część 4
 
 Stworzyłeś klasę ```Duck```. Mogą z niej dziedziczyć wszystkie kaczki. Twoim zadaniem teraz jest dodanie do odpowiedniej klasy metody ```fly()```. Metoda ma wypisywać w konsoli tekst "I'm flying...".
-
 
 ### Część 5
 

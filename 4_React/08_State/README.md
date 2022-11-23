@@ -1,8 +1,4 @@
-# Szkolenie ECMAScript 6+ i React
-
 ### Używamy tylko komponentów funkcyjnych.
-
-
 
 ## Zadanie 1
 
@@ -12,15 +8,11 @@ Komponent ma wyrenderować ten napis w elemencie `h1`.
 
 Dodaj do swojego komponentu timer, który po **5 sekundach** zmieni ten tekst na "Hi, Everyone!". Pamiętaj, aby zrobić to w odpowiedniej metodzie cyklu życia, a także, aby zwolnić zasoby.
 
-
-
 ## Zadanie 2
 
 Stwórz komponent `Box` i wyrenderuj element ```div``` z tłem ustawionym na zielone.
 
 Uruchom interwał, który co 5 sekund będzie zmieniał ten kolor na czerwony i później znów na zielony.
-
-
 
 ## Zadanie 3
 

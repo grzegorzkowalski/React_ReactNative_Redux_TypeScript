@@ -1,12 +1,8 @@
-# Szkolenie ECMAScript 6+ i React
-
 ### Na tym etapie ćwiczenia wykonuj w pliku App.js
-
 
 ## Zadanie 1
 
 W folderze znajduje się plik `people.js` zawierający tablicę z obiektami reprezentującymi osobę. Dodj ją w odpowiednie miejsce w projekcie i zaimportuj do pliku `App.js`.
-
 
 Używając metody `map()` stwórz z tablicy elementy `div` zawierające imię i nazwisko danej osoby.
 

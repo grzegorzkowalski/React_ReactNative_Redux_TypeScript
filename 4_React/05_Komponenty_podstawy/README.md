@@ -1,5 +1,3 @@
-# Szkolenie ECMAScript 6+ i React
-
 ### Stwórz w folderze src folder components. Używamy tylko komponentów funkcyjnych.
 
 ## Zadanie 1

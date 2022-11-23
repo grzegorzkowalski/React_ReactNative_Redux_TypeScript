@@ -1,7 +1,4 @@
-# Szkolenie ECMAScript 6+ i React
-
 ### Używamy tylko komponentów funkcyjnych.
-
 
 ## Zadanie 1
 
@@ -12,8 +9,6 @@ Komponent `ButtonCounter` wyświetla `div`, a w nim `h1` oraz przycisk stworzony
 W `h1` ma być na początku wyświetlane 0 - docelowo ma tam się wyświetlać ile razy (łącznie) zostały kliknięte przyciski.
 
 Komponent `ButtonToClick` zawiera  przycisk `button`, po kliknięciu którego jest przesyłana odpowiednia informacja do callbacku, który pobiera z props atrybut pod nazwą `onClick`. **Nie zapomnij sprawdzić czy ten atrybut został odpowiednio przekazany i jest funkcją.**
-
-
 
 ## Zadanie 2
 
@@ -46,4 +41,3 @@ Stwórz aplikację TODO składająca się z:
 3. komponentu TodoList wyświetlającego liste tasków TodoItem.
 4. Każdy TodoItem ma mieć przycisk, do którego będzie podpięte przekazane przez propsy zdarzenie do usunięcia danego Taska z listy.
 
- 
