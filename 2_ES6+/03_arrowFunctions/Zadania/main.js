@@ -24,6 +24,6 @@ const runInterval = (n = 8) => {
     }, 500);
 }
 
-// runInterval(3);
+runInterval(3);
 
-runInterval();
+//runInterval();
