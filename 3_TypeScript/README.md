@@ -38,20 +38,14 @@
 
 ## Zadanie 4
 
-- Stwórz ankietę przy pomocy biblioteki prompts
-Pytania:
+Zdefiniuj interface:
 
-1. Podaj imię. 
-2. Podaj nazwisko.
+1. Imię. 
+2. Nazwisko.
 3. Wiek.
-4. Podaj płec – do wybory kobieta | mężczyzna. Użyj typu `multiselect` w prompts.
-5. Zainteresowania – do wyboru programowanie | moda | muzyka.
-6. Wybierz swojego idola – do wyboru: jeśli użytkownik wskazał jako zainteresowanie programowanie do wybory ma: Rasmus Lerdorf, Linus Torvalds | Beandon Eich, jeśli modę Gucci, Versace, Lagerfeld, jeśli muzykę Sting | Doda | Bono.
-7. Wyświetl uzytkownikowi podsumowanie jego wyborów.
+4. Płeć – do wyboru kobieta | mężczyzna.
+5. Zainteresowania kilka: np. programowanie, moda. muzyka.
+6. Miasto (opcjonalnie) 
+7. Funkcja, która zwróci imię i nazwisko.
 
-- Otypuj wszystkie odpowiedzi
-
-## Zadanie 5
-
-- Stwórz obiekt `skills`.
-- Obiekt powinien zawierać dwa wymagane klucze `frontend` i `backend` zawierające tablicę ze stringami, do których wpisz swoje umiejętności. Dodatkowo obiekt może zawierać dowolne klucze, do których może wpisać swoje umiejętności. Pamiętaj, aby można było w nieograniczony sposób dodawać nowe skille.
+Rozszerz interface o adres i telefon.
