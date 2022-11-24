@@ -40,24 +40,12 @@ runInterval(3);
 // Clear Interval
 ```
 
-
-
 ## Zadanie 3
 
-
-
-### Część 1
-Dopisz funkcję ```generateLinks```, która na podstawie istniejącej tablicy z nazwami serwisów internetowych stworzy nową tablicę z linkami do tych stron.
+Napisz funkcję ```generateLinks```, która na podstawie istniejącej tablicy z nazwami serwisów internetowych stworzy nową tablicę z linkami do tych stron.
 
 Przykład:
 
-Wejściowa tablica: `["google", "twitter", "facebook"]`  
-Nowa tablica: `["https://google.com", "https://twitter.com", "https://facebook.com"]`
+Wejściowa tablica: `["google", "twitter", "facebook"]`.
 
-### Część 2
-W metodzie `insertLinks()` wstaw wygenerowane adresy do listy o id `menu` w pliku `index.html`:
-
-Przykład:
-```html
-<li><a href="https://google.com">https://google.com</a></li>
-```
+Nowa tablica: `["https://google.com", "https://twitter.com", "https://facebook.com"]`.

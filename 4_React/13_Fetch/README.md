@@ -31,3 +31,12 @@ Zadanie polega na wczytaniu danych z adresu: `https://pokeapi.co/api/v2/pokemon`
 * jeśli dane zostaną poprawnie wczytane, to wywołaj odpowiednią funkcję zmieniającą stan komponentu do której jako argument przekaż wczytane dane,
 * komponent ma renderować w pętli elementy **li** do którego wstawisz nazwę pokemona 
 * dodaj warunkowe renderowanie, wyświetl informację ładowanie danych dopóki, dopóki nie pobierzesz danych z serwera. Po dodaniu danych do stanu wyświetl je.
+
+
+## Zadanie 3
+
+1. Wyślij zapytanie po swój adres IP i poczekaj na odpowiedz.
+2. Użyj serwisu `https://www.ipify.org/`.
+3. Po otrzymaniu odpowiedzi odpytaj serwis `https://ip-api.com/` o szczegóły dla Twojego adresu IP.
+4. Gdy dane z drugiego serwisu zostaną zwrócone wyrenderuj je.
+5. Do czasu otrzymania drugiej odpowiedzi nie renderuj komponentu.
