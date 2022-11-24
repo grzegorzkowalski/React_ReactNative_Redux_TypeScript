@@ -11,8 +11,8 @@ const AtrybutyZadanie2 : React.FC = () : ReactElement => {
         <>
             {
                 Number(result) === A+B
-                    ? <div style={{backgroundColor: "green"}}>Poprawna odpowiedz</div>
-                    : <div style={{backgroundColor: "red"}}>Błędna odpowiedz</div>
+                    ? <div style={{backgroundColor: "green"}}>Odpowiedź poprawna</div>
+                    : <div style={{backgroundColor: "red"}}>Odpowiedź błędna</div>
             }
         </>
     );
