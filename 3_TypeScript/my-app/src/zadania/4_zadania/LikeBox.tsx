@@ -1,7 +1,7 @@
-const LikeBox = () => {
+const LikeBox = ({likes} : {likes: number}) => {
     return (
         <div>
-            <h2>100 Likes</h2>
+            <h2>{likes} Likes</h2>
             <button>Polub</button>
         </div>
     );

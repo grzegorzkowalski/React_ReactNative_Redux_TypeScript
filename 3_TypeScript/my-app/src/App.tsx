@@ -8,6 +8,8 @@ import Search from "./zadania/4_zadania/Search";
 import LikeBox from "./zadania/4_zadania/LikeBox";
 import Menu from "./zadania/4_zadania/Menu";
 import Hello from "./zadania/4_zadania/Hello";
+import Sum from "./zadania/4_zadania/Sum";
+import HelloWorld from "./zadania/4_zadania/HelloWorld";
 
 function App() {
   // add(2,5);
@@ -30,11 +32,13 @@ function App() {
       {/*</ul>*/}
       {/*  <AtrybutyZadanie2 />*/}
       {/*  <AtrybutyZadanie3 />*/}
-      <ZagniezdzeniaZadanie3 />
-      <Search />
-      <LikeBox />
-      <Menu />
-      <Hello name="Grzegorz" surname="Kowalski" />
+      {/*<ZagniezdzeniaZadanie3 />*/}
+      {/*<Search />*/}
+      {/*<LikeBox likes={166} />*/}
+      {/*<Menu />*/}
+      {/*<Hello name="Grzegorz" surname="Kowalski" />*/}
+      {/*<Sum tab={[1,2,3]} />*/}
+      <HelloWorld />
     </div>
   );
 }
