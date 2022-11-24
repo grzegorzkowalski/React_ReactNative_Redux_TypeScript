@@ -26,15 +26,7 @@
 1. Dobre praktyki
 1. Komunikacja z backend
 
-## React Native
-
-1. Wprowadzenie
-1. Przygotowanie środowiska deweloperskiego
-1. Architektura frameworka
-1. Nawigacja
-1. Zaawansowane komponenty
-
-## Redux - zarządzanie stanem aplikacji z użyciem
+## Redux - zarządzanie stanem globalnym aplikacji
 
 1. Omówienie założeń architektury
 1. Modelowanie stanu
@@ -44,3 +36,11 @@
 1. Metody implementacji niemutowalnych zmian
 1. Kiedy Redux a kiedy Context?
 1. Praca z Redux Dev Tools
+
+## React Native
+
+1. Wprowadzenie
+1. Przygotowanie środowiska deweloperskiego
+1. Architektura frameworka
+1. Nawigacja
+1. Zaawansowane komponenty

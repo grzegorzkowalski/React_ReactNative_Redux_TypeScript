@@ -1,6 +1,6 @@
 ## Zadanie 1
 
-Napisz funkcję ```distFromAverage```, która ma przyjmować tylko jeden argument - tablicę. Funkcja ta ma zwracać też tablicę. Zwracana tablica powinna mieć w sobie różnicę pomiędzy liczbą z danej komórki a średnią wartością tablicy.
+Napisz funkcję ```distFromAverage```, która ma przyjmować tylko jeden argument - tablicę. Funkcja ta ma zwracać też tablicę. Zwracana tablica powinna mieć w sobie wartości bezwzględne z różnicy pomiędzy liczbą z danej komórki a średnią wartością tablicy.  
 Np.
 
 ```JavaScript
