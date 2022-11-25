@@ -16,6 +16,8 @@ import ColorfulBoxes from "./zadania/ColorfulBoxes";
 import Shop from "./Shop";
 import NumberInfo from "./zadania/NumberInfo";
 import SecretStuff from "./SecretStuff";
+import HelloForm from "./HelloForm";
+import SelectOrType from "./SelectOrType";
 
 function App() {
   // add(2,5);
@@ -57,8 +59,10 @@ function App() {
       {/*<NumberInfo numericValue={7} />*/}
       {/*<NumberInfo numericValue={10} />*/}
       {/*<NumberInfo numericValue={16} />*/}
-      <SecretStuff password="test" correctPassword="test" secret="Lubię pizzę ale gluten mi szkodzi" />
-      <SecretStuff password="test" correctPassword="test1234" secret="Nie lubię brukselki" />
+      {/*<SecretStuff password="test" correctPassword="test" secret="Lubię pizzę ale gluten mi szkodzi" />*/}
+      {/*<SecretStuff password="test" correctPassword="test1234" secret="Nie lubię brukselki" />*/}
+      {/*  <HelloForm />*/}
+      <SelectOrType tab={["BMW", "Jaguar", "Porsche"]} />
     </div>
   );
 }
