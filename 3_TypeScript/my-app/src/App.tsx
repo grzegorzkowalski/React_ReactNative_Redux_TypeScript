@@ -13,6 +13,7 @@ import HelloWorld from "./zadania/4_zadania/HelloWorld";
 import Box from "./zadania/4_zadania/Box";
 import StrobeLight from "./zadania/4_zadania/StrobeLight";
 import ColorfulBoxes from "./zadania/ColorfulBoxes";
+import Shop from "./Shop";
 
 function App() {
   // add(2,5);
@@ -41,12 +42,13 @@ function App() {
       {/*<Menu />*/}
       {/*<Hello name="Grzegorz" surname="Kowalski" />*/}
       {/*<Sum tab={[1,2,3]} />*/}
-      <HelloWorld />
+      {/*<HelloWorld />*/}
       {/*<Box />*/}
       {/*<StrobeLight color="yellow" frequency={200} />*/}
       {/*<StrobeLight color="pink" frequency={500} />*/}
       {/*<StrobeLight color="blue" frequency={1000} />*/}
-      <ColorfulBoxes />
+      {/*<ColorfulBoxes />*/}
+      <Shop />
     </div>
   );
 }
