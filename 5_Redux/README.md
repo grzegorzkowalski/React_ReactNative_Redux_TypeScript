@@ -1,15 +1,17 @@
-## Zadanie
+## Zadanie 1 - Context
 
-###Stoper
+##Stoper
 
-Zaimplementuj aplikację stopera. Ma ona wyświetlać dwa przyciski start oraz stop. Odpowiednio startujące i zatrzymujące licznik po kliknięciu. Przyciski te powinny być na zmianę wyłączone tj.:
+Zaimplementuj aplikację stopera. Ma ona wyświetlać dwa przyciski start oraz stop.
+Odpowiednio startujące i zatrzymujące licznik po kliknięciu. Przyciski te powinny być na zmianę wyłączone tj.:
 jeśli licznik nie jest włączony to przycisk stop jest disabled,
 jeśli licznik jest włączony to przycisk start jest disabled.
 W znaczniku `<h1>` wyświetl aktualną wartość licznika.
 
-Po wystartowaniu licznik ma zwiększać się co sekundę, a jego wartość powinna być trzymana w stanie aplikacji.
 
-Na dole aplikacji wyrenderuj przycisk zapis. Po kliknięciu na niego powinniśmy dodać do listy wyników aktualną wartość licznika.
+Po wystartowaniu licznik ma zwiększać się co sekundę, a jego wartość powinna być trzymana w stanie aplikacji.
+Na dole aplikacji wyrenderuj przycisk zapis. Po kliknięciu na niego powinniśmy dodać do listy wyników aktualną
+wartość licznika.
 
 Przykładowy stan aplikacji:
 
@@ -41,15 +43,11 @@ Docelowy html aplikacji:
 </div>
 ```
 
-Zadanie wykonaj z wykorzystaniem Redux Toolkit. 
+## Zadanie 2
 
-Zainstaluj nową aplikację create-react-app.
+###Wykonaj powyższe zadanie z wykorzystaniem Redux Toolkit.
 
-```js
-npx create-react-app my-app --template typescript
-npm install @reduxjs/toolkit react-redux
-```
-lub wykorzystaj szablon
-```js
-npx create-react-app my-app --template redux
-```
+Stwórz aplikacje z wykorzystaniem odpowiedniego template `npx create-react-app my-app --template redux-typescript`.
+
+Template daje dużo predefiniowanych możliwości, które nie będą potrzebne w prostej aplikacji. Możesz template odchudzić
+albo zainstalować: `npx create-react-app my-app --template typescript` i `npm install @reduxjs/toolkit react-redux`.
