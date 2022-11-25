@@ -14,6 +14,8 @@ import Box from "./zadania/4_zadania/Box";
 import StrobeLight from "./zadania/4_zadania/StrobeLight";
 import ColorfulBoxes from "./zadania/ColorfulBoxes";
 import Shop from "./Shop";
+import NumberInfo from "./zadania/NumberInfo";
+import SecretStuff from "./SecretStuff";
 
 function App() {
   // add(2,5);
@@ -48,7 +50,15 @@ function App() {
       {/*<StrobeLight color="pink" frequency={500} />*/}
       {/*<StrobeLight color="blue" frequency={1000} />*/}
       {/*<ColorfulBoxes />*/}
-      <Shop />
+      {/*/!*<Shop />*!/*/}
+      {/*<NumberInfo numericValue={1} />*/}
+      {/*<NumberInfo numericValue={2} />*/}
+      {/*<NumberInfo numericValue={5} />*/}
+      {/*<NumberInfo numericValue={7} />*/}
+      {/*<NumberInfo numericValue={10} />*/}
+      {/*<NumberInfo numericValue={16} />*/}
+      <SecretStuff password="test" correctPassword="test" secret="Lubię pizzę ale gluten mi szkodzi" />
+      <SecretStuff password="test" correctPassword="test1234" secret="Nie lubię brukselki" />
     </div>
   );
 }
