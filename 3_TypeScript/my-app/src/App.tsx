@@ -18,6 +18,7 @@ import NumberInfo from "./zadania/NumberInfo";
 import SecretStuff from "./SecretStuff";
 import HelloForm from "./HelloForm";
 import SelectOrType from "./SelectOrType";
+import BookInfo from "./BookInfo";
 
 function App() {
   // add(2,5);
@@ -62,7 +63,9 @@ function App() {
       {/*<SecretStuff password="test" correctPassword="test" secret="Lubię pizzę ale gluten mi szkodzi" />*/}
       {/*<SecretStuff password="test" correctPassword="test1234" secret="Nie lubię brukselki" />*/}
       {/*  <HelloForm />*/}
-      <SelectOrType tab={["BMW", "Jaguar", "Porsche"]} />
+      {/*<SelectOrType tab={["BMW", "Jaguar", "Porsche"]} />*/}
+        <BookInfo isbn="0747532699" />
+        <BookInfo isbn="074753269" />
     </div>
   );
 }
