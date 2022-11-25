@@ -19,6 +19,7 @@ import SecretStuff from "./SecretStuff";
 import HelloForm from "./HelloForm";
 import SelectOrType from "./SelectOrType";
 import BookInfo from "./BookInfo";
+import Button from "./componets/Button";
 
 function App() {
   // add(2,5);
@@ -66,6 +67,7 @@ function App() {
       {/*<SelectOrType tab={["BMW", "Jaguar", "Porsche"]} />*/}
         <BookInfo isbn="0747532699" />
         <BookInfo isbn="074753269" />
+        <Button />
     </div>
   );
 }
